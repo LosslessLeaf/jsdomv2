@@ -33,5 +33,6 @@ addForm.addEventListener("submit", function(e){
     // append to document
     li.appendChild(bookName);
     li.appendChild(deleteBtn);
+    list.appendChild(li);
 })
 
